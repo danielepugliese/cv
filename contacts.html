@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contacts</title>
+</head>
+
+<body>
+  <h1>Contact me</h1>
+  <hr>
+  <form class="" action="mailto:pugliesedaniele@gmail.com" method="post" enctype="text/plain">
+    <table cellpadding="5">
+      <tr>
+        <td>
+          <label for="name">First Name</label>
+          <br>
+          <input type="text" name="name" id="name" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="surname">Last Name:</label>
+          <br>
+          <input type="text" name="surname" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="birth_date">Birth Date</label>
+          <br>
+          <input type="date" name="" id="birth_date" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="country">Country</label>
+          <br>
+          <select id="country" name="country">
+            <option value="italy">Italy</option>
+            <option value="germany">Germany</option>
+            <option value="spain">Spain</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gender:
+          <br>
+          <label for="male">Male</label>
+          <input type="radio" name="male" id="male">
+          <label for="female">Female</label>
+          <input type="radio" name="female" id="female">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">Email</label>
+          <br>
+          <input type="email" name="email" id="email" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="password">Password</label>
+          <br>
+          <input type="password" name="password" id="password" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="your_photo">Picture</label>
+          <br>
+          <input type="file" name="your_photo" id="your_photo" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="subject">Subject</label>
+          <br>
+          <textarea name="subject" id="subject" placeholder="Write something.." rows="10" cols="45">
+              </textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="submit" name="submit" value="Send Request" required>
+        </td>
+      </tr>
+    </table>
+  </form>
+
+  <p>🔙<a href="index.html">HOME</a></p>
+
+</body>
+
+</html>
